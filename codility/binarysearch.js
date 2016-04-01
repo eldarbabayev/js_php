@@ -1,5 +1,4 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
+// Need to complete the code
 
 function solution(K, M, A) {
     // write your code in JavaScript (Node.js 4.0.0)
