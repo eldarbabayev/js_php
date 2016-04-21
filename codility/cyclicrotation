@@ -1,0 +1,15 @@
+function solution(A, K) {
+    // write your code in JavaScript (Node.js 4.0.0)
+    
+    var len = A.length;
+    if (len === 0) {
+        return [];
+    }
+    for (var i = 0; i < K; i++) {
+        var last = A[len-1];
+        A.pop();
+        A.unshift(last);
+    }
+    
+    return A;
+}
